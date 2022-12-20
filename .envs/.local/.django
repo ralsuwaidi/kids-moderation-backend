@@ -2,3 +2,8 @@
 # ------------------------------------------------------------------------------
 USE_DOCKER=yes
 IPYTHONDIR=/app/.ipython
+
+# Project
+# ------------------------------------------------------------------------------
+# stop registration
+DJANGO_ACCOUNT_ALLOW_REGISTRATION=False

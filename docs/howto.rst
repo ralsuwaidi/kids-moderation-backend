@@ -9,7 +9,7 @@ Documentation can be written as rst files in `content_moderation/docs`.
 
 To build and serve docs, use the commands::
     
-    docker-compose -f local.yml up docs
+    docker compose -f local.yml up docs
 
 
 

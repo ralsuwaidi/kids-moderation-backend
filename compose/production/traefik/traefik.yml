@@ -28,7 +28,7 @@ certificatesResolvers:
 http:
   routers:
     web-secure-router:
-      rule: "Host(`nowyouknow.ae`) || Host(`www.nowyouknow.ae`)"
+      rule: "Host(`api.nowyouknow.ae`)"
       entryPoints:
         - web-secure
       middlewares:
